@@ -20,6 +20,7 @@ class Page extends MY_Controller {
 			$data = $this->input->post();
 
 			$this->profile_model->save($data);
+			$this->session->set_flashdata('success', 'Profile has been updated.');
 		}
 
 		$data = $this->profile_model->get();

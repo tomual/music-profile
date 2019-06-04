@@ -5,7 +5,7 @@
     <form method="post">
         <div class="form-group">
             <label for="username">Password</label>
-            <input type="password" name="passphrase" id="passphrase" value="<?php echo set_value('passphrase') ?>" class="form-control <?php echo is_valid('passphrase') ?>">
+            <input type="password" name="passphrase" id="passphrase" class="form-control <?php echo is_valid('passphrase') ?>">
             <?php echo form_error('passphrase') ?>
         </div>
         <div class="form-group">
