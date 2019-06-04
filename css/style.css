@@ -1,3 +1,139 @@
 body {
-	line-height: 1.5rem;
+	background: #FFF;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #000;
+}
+
+.background {
+	background-size: cover;
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 110%;
+	min-height: 110%;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+.img {
+	background-size: cover;
+	background-color: #000;
+    border: 15px solid #000;
+    float: left;
+	width: 320px;
+	height: 320px;
+}
+.outer {
+    width: 900px;
+    height: 200px;
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+}
+.title {
+	letter-spacing: 1px;
+    border: 15px solid #000;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+	background: #ffffff4a;
+}
+
+.title h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.subtitle {
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.icons {
+    border: 15px solid #000;
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 25px;
+	background: #ffffff4a;
+}
+
+.line {
+    border: 15px solid #000;
+    width: 810px;
+    height: 1px;
+    float: left;
+    background: #000;
+    position: absolute;
+    top: -10;
+    top: -40px;
+}
+
+a {
+	color: #000;
+}
+.fa {
+	padding: 5px;
+	margin-bottom: 25px;
+	color: #000;
+}
+.fa:hover {
+    color: #3c6f89;
+}
+
+@media only screen and (max-width: 880px) {
+
+
+	.background {
+		min-height: 1230px;
+	}
+	.outer {
+	    width: 350px;
+	    margin-top: 160px;
+	}
+	.img {
+	    float: none;
+	    margin: auto;
+	}
+	.title {
+	    float: none;
+	    margin: auto;
+	    margin-top: 10px;
+	}
+	.icons {
+	    width: 350px;
+	    float: none;
+	    margin: auto;
+	    margin-top: 10px;
+	}
+	.line {
+	    border: 15px solid #000;
+	    width: 320px;
+	    height: 1px;
+	    float: left;
+	    background: #000;
+	    position: absolute;
+	    top: -10;
+	    top: -40px;
+	}
+	.fa {
+	    margin-bottom: 0;
+	    margin: 0 10px;
+	}
+	.icons {
+	    height: 120px;
+	    padding-top: 20px;
+	}
 }

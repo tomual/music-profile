@@ -12,12 +12,12 @@ class Profile_model extends CI_Model {
     function save($data)
     {
         $data = json_encode($data);
-        return write_file('file', $data);
+        return write_file('application/profile', $data);
     }
 
     function get()
     {
-        $data = read_file('file');
+        $data = read_file('application/profile');
         return json_decode($data);
     }
 }

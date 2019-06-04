@@ -522,4 +522,4 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['passphrase'] = 'councilbluffs';
+$config['passphrase'] = 'littlejam3s';
