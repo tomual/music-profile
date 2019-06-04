@@ -5,7 +5,8 @@ class Home extends MY_Controller {
 
 	public function index()
 	{
-        set_title('Welcome');
-		$this->load->view('home2');
+		$this->load->model('profile_model');
+        $data = $this->profile_model->get();
+        $this->load->view('home', $data);
 	}
 }
