@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo get_title() ? get_title() . ' | ' : '' ?>p0h_k</title>
+    <title><?php echo get_title() ? get_title() . ' | ' : '' ?>Edit Profile</title>
     <meta name="description" content="">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -28,8 +28,7 @@
     <link href="<?php echo base_url('css/style.css') ?>" rel="stylesheet">
 </head>
 <body>
-    <header class="text-center">
-        <h1>poh_k</h1>
+    <header class="text-center pt-5">
         <a href="<?php echo base_url() ?>">&laquo; View page</a>
     </header>
     <main role="main" class="container">

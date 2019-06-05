@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		test
-	</title>
+	<title>p0h_k</title>
+	<link rel="stylesheet" href="<?php echo base_url('css/style.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('fonts/font-awesome-4.7.0/css/font-awesome.min.css') ?>">
-
-
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 	<style type="text/css">
-		.title {
-			font-size: 2rem;
-			font-weight: bold;
+		.background {
+			background-image: url('<?php echo $background ?? null ?>');
 		}
-		.fa {
-			padding: 5px 3px;
-			margin: 5px 0;
-			font-size: 2rem;
-			border-bottom: 1px solid #FFF;
-		}
-		a {
-			color: blue;
-		}
-		.fa:hover {
-			border-bottom: 1px solid blue;
+
+		.img {
+			background-image: url('<?php echo $image ?? null ?>');
 		}
 	</style>
 </head>
 <body>
-
-	<img src="https://instagram.fper2-1.fna.fbcdn.net/vp/189eeffa462c1185d93d01f0e6de181a/5D7BE42F/t51.2885-19/s320x320/47585202_2163233760381520_5573901156796596224_n.jpg?_nc_ht=instagram.fper2-1.fna.fbcdn.net">
 	<div class="outer">
-		<div class="title">p0h_k</div>
-		<div class="sub">experimental <span>&middot;</span> ambient <span>&middot;</span> modular</div>
-		<div class="email">maybeanemail@gmail.com</div><br>
-		<div class="icons">
-			<a target="_blank" href="https://open.spotify.com/artist/3lpE9EL5v9a9T7pM7bZNbe"><i style="margin-left: 0px" class="fa fa-spotify" aria-hidden="true"></i></a><br>
-			<a target="_blank" href="https://soundcloud.com/p0h_k"><i style="margin-left: 33px" class="fa fa-soundcloud" aria-hidden="true"></i></a><br>
-			<a target="_blank" href="https://www.instagram.com/p0h_k/"><i style="margin-left: 80px" class="fa fa-instagram" aria-hidden="true"></i></a><br>
-			<a target="_blank" href="https://music.apple.com/us/artist/p0h-k/1463140428"><i style="margin-left: 120px" class="fa fa-apple" aria-hidden="true"></i></a><br>
+		<div class="img"></div>
+		<div class="title">
+			<h1>p0h_k</h1>
+			<p></p>
 		</div>
+		<div class="icons">
+			<a target="_blank" href="<?php echo $spotify ?>"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $soundcloud ?>"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $apple ?>"><i class="fa fa-apple" aria-hidden="true"></i></a>
+		</div>
+		<div class="line"></div>
 	</div>
 
+	<div class="background"></div>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112437071-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-112437071-1');
+	</script>
 </body>
 </html>
