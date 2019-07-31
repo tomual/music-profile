@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>p0h_k</title>
+	<title><?php echo $name ?></title>
 	<link rel="stylesheet" href="<?php echo base_url('css/style.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('fonts/font-awesome-4.7.0/css/font-awesome.min.css') ?>">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -19,14 +19,15 @@
 	<div class="outer">
 		<div class="img"></div>
 		<div class="title">
-			<h1>p0h_k</h1>
-			<p></p>
+			<h1><?php echo $name ?></h1>
+			<p><?php echo $subtitle ?></p>
+			<small><?php echo $description ?></small>
 		</div>
 		<div class="icons">
+			<a target="_blank" href="<?php echo $twitter ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			<a target="_blank" href="<?php echo $spotify ?>"><i class="fa fa-spotify" aria-hidden="true"></i></a>
 			<a target="_blank" href="<?php echo $soundcloud ?>"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
-			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a target="_blank" href="<?php echo $apple ?>"><i class="fa fa-apple" aria-hidden="true"></i></a>
 		</div>
 		<div class="line"></div>
 	</div>

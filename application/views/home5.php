@@ -61,15 +61,15 @@
 <body>
 
 	<div class="outer">
-		<div class="title">p0h_k</div>
+		<div class="title"><?php echo $name ?></div>
 		<div class="icons">
-			<a target="_blank" href="https://open.spotify.com/artist/3lpE9EL5v9a9T7pM7bZNbe"><i class="fa fa-spotify" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://soundcloud.com/p0h_k"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://www.instagram.com/p0h_k/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://music.apple.com/us/artist/p0h-k/1463140428"><i class="fa fa-apple" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $twitter ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $spotify ?>"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $soundcloud ?>"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
 		</div>
-		<img class="thing" src="https://distrokid.imgix.net/http%3A//distrokid.com/hyperfollow/art/p0hk/comfort-in-water/%3F5567307CD203330E6998F8439E4D77C4?w=800&s=20ce371501ae741067d9ecb5298c99c6">
-		<img class="thing2" src="https://distrokid.imgix.net/http%3A//distrokid.com/hyperfollow/art/p0hk/comfort-in-water/%3F5567307CD203330E6998F8439E4D77C4?w=800&s=20ce371501ae741067d9ecb5298c99c6">
+		<img class="thing" src="<?php echo $image ?>">
+		<img class="thing2" src="<?php echo $image ?>">
 	</div>
 
 </body>

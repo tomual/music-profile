@@ -6,8 +6,6 @@
 	</title>
 	<link rel="stylesheet" href="<?php echo base_url('fonts/font-awesome-4.7.0/css/font-awesome.min.css') ?>">
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-
-
 	<style type="text/css">
 		body {
 			padding: 0;
@@ -31,7 +29,6 @@
 		a {
 			color: #FFF;
 			font-size: 1.5rem;
-
 		}
 
 		.fa {
@@ -42,7 +39,6 @@
 		.sub {
 		    margin-bottom: 1rem;
 		    color: #777;
-		    margin-top: -20px;
 		}
 
 		.email {
@@ -78,16 +74,16 @@
 </head>
 <body>
 
-	<img src="<?php echo base_url('img/photo.png') ?>">
+	<img src="<?php echo $image ?>">
 	<div class="outer">
 		<div class="title"><?php echo $name ?></div>
-		<div class="sub">experimental <span>&middot;</span> ambient <span>&middot;</span> modular</div>
+		<div class="sub"><?php echo $subtitle ?></div>
 		<div class="email"><?php echo $description ?></div>
 		<div class="icons">
+			<a target="_blank" href="<?php echo $twitter ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			<a target="_blank" href="<?php echo $spotify ?>"><i class="fa fa-spotify" aria-hidden="true"></i></a>
 			<a target="_blank" href="<?php echo $soundcloud ?>"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
-			<a target="_blank" href="<?php echo $instagram ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a target="_blank" href="<?php echo $apple ?>"><i class="fa fa-apple" aria-hidden="true"></i></a>
 		</div>
 	</div>
 

@@ -7,6 +7,6 @@ class Home extends MY_Controller {
 	{
 		$this->load->model('profile_model');
         $data = $this->profile_model->get();
-        $this->load->view('home', $data);
+        $this->load->view('home4', $data);
 	}
 }
